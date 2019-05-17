@@ -11,7 +11,10 @@ Vivado 2017.1 or above (as I have used)
 3. Add file (tb_LeNet.v) from folder (Other-Files) to your project as 'simulation sources'.
 4. Add files (I0.mem, I1.mem, I2.mem, I3.mem, I4.mem, I5.mem, I6.mem, I7.mem, I8.mem, I9.mem, W.mem) from folder (Other-Files) to your project as 'design sources'.
 5. Change inputs from line 56 of LeNet.v in folder (Verilog-Source-Files). [like I4.mem instead of I3.mem]
-6. Simulate and get the desired result
+6. Before simulation confirm simulation time should be more than 10000ns to do it go to:
+Project Manager -> Settings -> Project Setting -> Simulation -> Find Simulation tab -> change xsim.simulate.runtime from 1000ns to 1000us
+![Alt text](images/Capture1.PNG?raw=true "Simulation Time")
+7. Simulate and get the desired result
 # Details of work
 ## LeNet-1 Network
 LeNet-1 Architecture for handwritten digit recognition is given by
