@@ -1,5 +1,7 @@
 # Systolic Array Based LeNet-CNN-Accelerator-for-FPGA
 An open source Verilog Based LeNet-1 CNNs Accelerator for FPGAs.
+Trained weights of the model are in "W.mem" file in "Other-files" directory.
+
 ## How to run 
 ### Requirement:
 Vivado 2017.1 or above (as I have used)
@@ -14,6 +16,8 @@ Vivado 2017.1 or above (as I have used)
 ## LeNet-1 Network
 LeNet-1 Architecture for handwritten digit recognition is given by
 ![Alt text](images/Slide2.JPG?raw=true "LeNet-1 Architecture")
+## LeNet-1 Model Summary
+![Alt text](LeNet Trained Model Colab/Capture.PNG?raw=true "LeNet-1 Architecture")
 ## Systolic Array Based Hardware Architechture Design
 ![Alt text](images/Slide3.JPG?raw=true "Systolic Architecture")
 ### Controller
