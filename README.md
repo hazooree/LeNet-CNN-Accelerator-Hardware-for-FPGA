@@ -5,10 +5,11 @@ An open source Verilog Based LeNet-1 CNNs Accelerator for FPGAs.
 Vivado 2017.1 or above (as I have used)
 ### Procedure
 1. Make a new project in vivado
-2. Add files (Conv3D.v, FC.v, LeNet.v, MACC.v, Multiplication.v, PE.v, PE_Array.v, max2.v, softmax.v) in folder (Verilog-Source-Files) as design sources.
-3. Add file (tb_LeNet.v) in folder (Other-Files) as simulation sources.
-4. Add files (I0.mem, I1.mem, I2.mem, I3.mem, I4.mem, I5.mem, I6.mem, I7.mem, I8.mem, I9.mem, W.mem) as design sources.
-5. Change input from line 56 of LeNet.v in folder (Verilog-Source-Files)
+2. Add files (Conv3D.v, FC.v, LeNet.v, MACC.v, Multiplication.v, PE.v, PE_Array.v, max2.v, softmax.v) from folder (Verilog-Source-Files) to your project as 'design sources'.
+3. Add file (tb_LeNet.v) from folder (Other-Files) to your project as 'simulation sources'.
+4. Add files (I0.mem, I1.mem, I2.mem, I3.mem, I4.mem, I5.mem, I6.mem, I7.mem, I8.mem, I9.mem, W.mem) from folder (Other-Files) to your project as 'design sources'.
+5. Change inputs from line 56 of LeNet.v in folder (Verilog-Source-Files)
+6. Simulate and get the desired result
 
 ## LeNet-1 Network
 LeNet-1 Architecture for handwritten digit recognition is given by
