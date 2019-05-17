@@ -17,7 +17,7 @@ Vivado 2017.1 or above (as I have used)
 LeNet-1 Architecture for handwritten digit recognition is given by
 ![Alt text](images/Slide2.JPG?raw=true "LeNet-1 Architecture")
 ## LeNet-1 Model Summary
-![Alt text](LeNet Trained Model Colab/Capture.PNG?raw=true "LeNet-1 Architecture")
+![Alt text](images/Capture.PNG?raw=true "Model")
 ## Systolic Array Based Hardware Architechture Design
 ![Alt text](images/Slide3.JPG?raw=true "Systolic Architecture")
 ### Controller
