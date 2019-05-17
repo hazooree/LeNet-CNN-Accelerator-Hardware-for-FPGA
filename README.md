@@ -14,6 +14,8 @@ Vivado 2017.1 or above (as I have used)
 6. Before simulation confirm simulation time should be more than 10000ns to do it go to:
 Project Manager -> Settings -> Project Setting -> Simulation -> Find Simulation tab -> change xsim.simulate.runtime from 1000ns to 1000us
 ![Alt text](images/Capture1.PNG?raw=true "Simulation Time")
+Alternatevly: You can directly run this command in 'tcl console'
+**_set_property -name {xsim.simulate.runtime} -value {1000us} -objects [get_filesets sim_1]_**
 7. Simulate and get the desired result
 # Details of work
 ## LeNet-1 Network
