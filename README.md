@@ -16,7 +16,7 @@ Project Manager -> Settings -> Project Setting -> Simulation -> Find Simulation 
 ![Alt text](images/Capture2.PNG?raw=true "Simulation Time")
 #### Alternatevly: You can directly run this command in 'tcl console'
 **_set_property -name {xsim.simulate.runtime} -value {1000us} -objects [get_filesets sim_1]_**
-7. Simulate and get the desired result
+#### 7. Simulate and get the desired result
 # Details of work
 ## LeNet-1 Network
 LeNet-1 Architecture for handwritten digit recognition is given by
