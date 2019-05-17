@@ -1,4 +1,4 @@
-# LeNet-CNN-Accelerator-for-FPGA
+# Systolic Array Based LeNet-CNN-Accelerator-for-FPGA
 An open source Verilog Based LeNet-1 CNNs Accelerator for FPGAs.
 ## How to run 
 ### Requirement:
@@ -10,7 +10,7 @@ Vivado 2017.1 or above (as I have used)
 4. Add files (I0.mem, I1.mem, I2.mem, I3.mem, I4.mem, I5.mem, I6.mem, I7.mem, I8.mem, I9.mem, W.mem) from folder (Other-Files) to your project as 'design sources'.
 5. Change inputs from line 56 of LeNet.v in folder (Verilog-Source-Files)
 6. Simulate and get the desired result
-
+# Details of work
 ## LeNet-1 Network
 LeNet-1 Architecture for handwritten digit recognition is given by
 ![Alt text](images/Slide2.JPG?raw=true "LeNet-1 Architecture")
