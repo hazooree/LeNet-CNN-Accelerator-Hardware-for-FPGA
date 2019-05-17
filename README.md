@@ -34,7 +34,7 @@ LeNet-1 Architecture for handwritten digit recognition is given by
 #### Processing Element (PE) and MACC Units
 ![Alt text](images/Slide5.JPG?raw=true "5X6 PE Array")
 ### Fully Connected Layer Micro-Architecture
-![Alt text](images/Slide6.JPG?raw=true "FC)
+![Alt text](images/Slide6.JPG?raw=true "fc")
 ### Fast Softmax Micro-Architecture
 ![Alt text](images/Slide7.JPG?raw=true "Softmax")
 ## Results Before Softmax Layer (Keras Vs Vivado)
