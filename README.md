@@ -1,7 +1,8 @@
 # Systolic Array Based LeNet-CNN-Accelerator-for-FPGA
 An open source Verilog Based LeNet-1 CNNs Accelerator for FPGAs.
 Trained weights of the model are in "W.mem" file in "Other-files" directory.
-
+#### *for more details on theory you can refer to https://arxiv.org/ftp/arxiv/papers/1901/1901.04986.pdf.*
+#### Please cite as: {Hazoor Ahmad, Muhammad Tanvir, Muhammad Abdullah, Muhammad Usama Javed, Rehan Hafiz, and Muhammad Shafique. "Systimator: A Design Space Exploration Methodology for Systolic Array based CNNs Acceleration on the FPGA-based Edge Nodes." arXiv preprint arXiv:1901.04986 (2018).}
 ## How to run 
 ### Requirement:
 Vivado 2017.1 or above (as I have used)
